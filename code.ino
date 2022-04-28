@@ -27,7 +27,7 @@ void setup()
 void init_port()
 {
     volatile char *ddr = (char *)0x24;
-    *ddr = 0x20;
+    *ddr = 0x20;  //Set portb pin 5 as output i.e Pin11 on board
 }
 
 void init_timer()
