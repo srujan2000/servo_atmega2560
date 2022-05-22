@@ -67,7 +67,7 @@ Let us take the above example of the LED, if the supply voltage to an LED is 5v,
 </section>
 
 <section  id="servo" style="margin-bottom:50px">
-<h2>Working of Servo Motor <h2>
+<h2>Working of Servo Motor </h2>
 <strong style="font-size:20px;">
 Servo Motor runs at frequeny of 50Hz and a clock period of 20ms. It works on the principle of PWM. <br>
 For 1ms pulse servo rotates to 0 degrees, 1.5ms pulse servo rotates to 90 degrees, 2.5ms pulse servo rotates to 180 degrees.
