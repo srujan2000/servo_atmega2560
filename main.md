@@ -127,9 +127,4 @@ so, to move from 0 to 180 degrees, we need a duty cycle from 5% to 12.5% i.e OCR
 
 Servo will rotate from 0 degrees to 180 degrees.
 </section>
-
-<section>
-<h2>Code</h2>
-<strong>For code click <a href="https://www.google.com/">here</a>
-</section>
 </body>
