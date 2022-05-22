@@ -37,8 +37,8 @@ void init_timer()
     volatile short *TCNT_1 = (short *)0x84;
     volatile short *ICR_1 = (short *)0x86;
 
-    *TCCR1_A = 0b10000010; // WGM0-0,WGM1-1,COMA1-1,COMA0-0
-    *TCCR1_B = 0b00011010; // WGM2-1,WGM3-1, precaler-8
+    *TCCR1_A = 0x82; // WGM0-0,WGM1-1,COMA1-1,COMA0-0
+    *TCCR1_B = 0x1A; // WGM2-1,WGM3-1, precaler-8
     *TCNT_1 = 0;
     *ICR_1 = 40000; // Sets frequency to 50Hz
 }
