@@ -88,7 +88,7 @@ we are using Fast PWM with top value as ICRn which is used to set the frequency.
 
 In Control Register A, we set the Waveform generation bits WGM11,WGM10 and PWM mode using COM1A1 and COM1A2.
 
-<img src="pwm_mode.jpg" style="margin-bottom:50px">
+<img src="PWM_mode.jpg" style="margin-bottom:50px">
 
 we set  COM1A1-1, COM1A2-0, this way servo will be ON from 0 to the value we set in OCR1A register.
 
